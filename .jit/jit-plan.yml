@@ -24,4 +24,11 @@ override:
           runner:
             setup:
               timeout_minutes: 90
-
+override:
+  workflows:
+    sca:
+      jobs:
+        software-component-analysis-python:
+          runner:
+            setup:
+              timeout_minutes: 90
