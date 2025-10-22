@@ -16,4 +16,12 @@ references:
 - https://www.jit.io
 tags: []
 version: 0.1
+override:
+  workflows:
+    sca:
+      jobs:
+        software-component-analysis-js:
+          runner:
+            setup:
+              timeout_minutes: 90
 
