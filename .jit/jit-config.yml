@@ -1,0 +1,7 @@
+applications:
+- api_domain: app-staging.netenrich.com
+  application_name: ricstaging
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://app-staging.netenrich.com
+  type: web
